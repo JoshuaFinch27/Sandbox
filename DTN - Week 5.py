@@ -12,13 +12,17 @@ Return the first name if multiple people have the same oldest age
 
 
 def main():
+    """Lecture 5 demo on lists and functions"""
     names = ["Joshua", "Jack", "Joe"]
     ages = [18, 18, 25]
     print(determine_oldest(names, ages))
 
 
 def determine_oldest(names, ages):
-    return names[ages.index(max(ages))]
+    """Determine the oldest name based on lists"""
+    oldest_age = max(ages)
+    index = ages.index(oldest_age)
+    return names[index]
 
 
 main()
