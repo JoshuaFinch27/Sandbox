@@ -19,7 +19,7 @@ e.g: whatever_you_call_it(name_to_age, 30)
 name_to_age = {"Bill": 21, "Jane": 34, "Sven": 56}
 
 
-def main()
+def main():
     """Main program, calls other function and prints output"""
     names = names_above_threshold(30)
     print(f"{names}")
