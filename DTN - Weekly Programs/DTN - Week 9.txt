@@ -1,0 +1,17 @@
+Lecture 8 DTN
+
+Draw an inheritance hierarchy for a game. You choose what kind of game, e.g:
+ - RPG: quests, characters, friends, foes...
+ - Sport: teams, players, coaches, games...
+ - Medical simulation (fun game, that): body parts, diseases, drugs...
+ - Shop: products, customers, workers, transactions, sales, purchases, money...
+
+1: Physical Object
+    1.1: Living things
+        1.1.1: Mammal
+            1.1.1.1: Cat
+        1.1.2: Insect
+            1.1.2.1: Beetle
+    1.2: Inanimate object
+        1.2.1: Stone
+        1.2.2: Asteroid
